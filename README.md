@@ -17,3 +17,4 @@ docker build -t neb_code_example:1.0 -f Dockerfile .
 # Run docker image
 workdir=`pwd`; docker run --rm -v ${workdir}/data:/data2 neb_code_example:1.0 --program single_cell
 ```
+This will generate png plots and an html report in data
